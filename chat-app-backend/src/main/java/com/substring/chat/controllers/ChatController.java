@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Controller
 @CrossOrigin(origins = {
     "http://localhost:5173",            // for local testing
-    "https://chat-app-murex-zeta-87.vercel.app/" // replace with your actual Vercel domain
+    "https://chat-app-frontend-nine-sigma.vercel.app/" // replace with your actual Vercel domain
 })
 
 public class ChatController {
