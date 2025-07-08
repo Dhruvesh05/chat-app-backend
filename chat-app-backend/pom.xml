@@ -11,7 +11,7 @@
 	<groupId>com.substring.chat</groupId>
 	<artifactId>chat-app-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>chat-backend</name>
+	<name>chat-app-backend</name>
 	<description>com.substring.chat</description>
 	<url/>
 	<licenses>
