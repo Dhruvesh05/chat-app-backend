@@ -29,7 +29,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         registry.addEndpoint("/chat")//connection establishment
                 .setAllowedOrigins(
                 "http://localhost:5173",
-                "https://chat-app-murex-zeta-87.vercel.app/" // replace with actual Vercel link
+                "https://chat-app-frontend-nine-sigma.vercel.app/" // replace with actual Vercel link
                 )
                 .withSockJS();
     }
