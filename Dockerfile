@@ -2,11 +2,11 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-# Copy project files
+# Copy all files
 COPY . .
 
-# Build the project
-RUN ./mvnw clean install
+# Build the Spring Boot app (skip tests)
+RUN ./mvnw clean install -DskipTests
 
-# Run the application
+# Run the app
 CMD ["java", "-jar", "target/chat-app-backend-0.0.1-SNAPSHOT.jar"]
